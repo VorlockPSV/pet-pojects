@@ -12,16 +12,16 @@ public class HelloMessage {
     private static final Logger LOG = Logger.getLogger(HelloMessage.class);
 
     //set hours
-    public static final int MORNING_START = 6;
-    public static final int DAY_START = 9;
-    public static final int EVENING_START = 19;
-    public static final int NIGHT_START = 23;
+    private static final int MORNING_START = 6;
+    private static final int DAY_START = 9;
+    private static final int EVENING_START = 19;
+    private static final int NIGHT_START = 23;
 
     //set keys in bundle 'message'
-    public static final String BM_MORNING = "morning";
-    public static final String BM_DAY = "day";
-    public static final String BM_EVENING = "evening";
-    public static final String BM_NIGHT = "night";
+    private static final String BM_MORNING = "morning";
+    private static final String BM_DAY = "day";
+    private static final String BM_EVENING = "evening";
+    private static final String BM_NIGHT = "night";
 
     public static void main(String[] args) {
         String greeting = new HelloMessage().getGreeting(LocalTime.now());
@@ -54,11 +54,9 @@ public class HelloMessage {
 
     private static void checkFolder() {
         File logs = new File("logs");
-        if (logs.exists()) {
-            if (!logs.isDirectory()) {
-                logs.delete();
-                logs.mkdir();
-            }
+        if (logs.exists() && !logs.isDirectory()) {
+            logs.delete();
+            logs.mkdir();
         } else {
             logs.mkdir();
         }
