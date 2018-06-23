@@ -1,2 +1,2 @@
 # pet-pojects
-my pet-pojects incl. java core 8 + spring 4
+my pet-projects which can demonstrate my growing up skills and knowledges in Java 8, Spring 4 and other technologies
