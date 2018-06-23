@@ -1,4 +1,4 @@
-# helloMessage
+# HelloMessage
 
 Travis CI
 
@@ -32,4 +32,4 @@ Good night, World! в 23:00 - 06:00
 
 обработка локализации - native2ascii;
 
-статус сборки - Travis CI.
+статус сборки - Travis CI (сейчас CI не трекается т.к. не умеет работать с проектом в подпапке)
