@@ -15,4 +15,4 @@ it will be a server for my application
 **Web server:** Tomcat8
 
 #
-more details you can see in `**_pom.xml_**`
+more details you can see in **_pom.xml_**
