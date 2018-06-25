@@ -5,7 +5,7 @@ this is part of my pet projects (incl. different test-tasks from different compa
 
 in **_java_core_** folder you can see codes on Java Core 8
 
-in **_spring_** folder you can see my attempts to write code using Spring 4 framework
+in **_java_ee_** folder you can see my attempts to write code using Spring 4 framework
 
 btw, you can get my full CV on demand ;)
 
