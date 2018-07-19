@@ -1,0 +1,27 @@
+/*created by S.Petrov*/
+table {
+    width: 120px;
+    height: 120px;
+    border-top: 3px solid black;
+    border-left: 2px solid black;
+}
+
+table.secondTable {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100px;
+    height: 100px;
+    margin: -110px 0 0 10px;
+}
+
+table.secondTable td {
+    padding: 10px;
+    vertical-align: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+table.secondTable th {
+    background: #888888;
+    border: 1px solid black;
+}

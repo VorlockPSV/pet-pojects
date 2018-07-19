@@ -1,0 +1,27 @@
+/*created by S.Petrov*/
+input {
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+}
+
+input.lavenderblush:hover {
+    background: lavenderblush;
+}
+
+input.aliceblue:hover {
+    background: aliceblue;
+}
+
+input.floralwhite:hover {
+    background: floralwhite;
+}
+
+div {
+    border-left: 1px solid black;
+    height: 180px;
+}
+
+p {
+    margin-left: 5px;
+}

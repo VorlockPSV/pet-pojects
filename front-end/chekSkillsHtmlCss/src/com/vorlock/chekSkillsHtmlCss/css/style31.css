@@ -1,0 +1,12 @@
+div.mainDiv {
+    border: 1px solid black;
+    width: 250px;
+    padding: 5px 0 0 3px;
+}
+
+div.mainDiv > div {
+    border: 1px solid black;
+    display: inline;
+    padding: 0 10px 0 10px;
+    margin: 0 calc(37% - 5rem);
+}

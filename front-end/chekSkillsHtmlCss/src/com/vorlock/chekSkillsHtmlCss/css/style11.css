@@ -1,0 +1,6 @@
+/*created by S.Petrov*/
+input.disabled {
+      pointer-events: none;
+      cursor: default;
+      color: #888;
+  }

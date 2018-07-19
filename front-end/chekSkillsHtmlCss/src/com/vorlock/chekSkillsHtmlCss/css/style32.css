@@ -1,0 +1,8 @@
+/*created by S.Petrov*/
+div.sampleEllipsis {
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid black;
+}

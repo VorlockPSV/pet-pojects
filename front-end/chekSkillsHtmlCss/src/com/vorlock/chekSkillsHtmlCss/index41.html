@@ -1,0 +1,50 @@
+<!--created by S.Petrov-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hometask 4.1</title>
+</head>
+<body>
+
+<form action="https://localhost" method="post">
+    <label for="male">Gender:</label>
+    <input type="radio" name="selection" value="Male" id="male" class="marginArea" checked/>
+    <label for="male">Male</label>
+    <input type="radio" name="selection" value="Female" id="female"/>
+    <label for="female">Female</label>
+
+    <p>
+        <label for="lblFirstName">First name:</label>
+        <input placeholder="Enter your first name" id="lblFirstName" class="marginArea"/>
+    </p>
+    <p>
+        <label for="lblLastName">Last name:</label>
+        <input placeholder="Enter your last name" id="lblLastName" class="marginArea"/>
+    </p>
+
+    <p>
+        <label for="selectCountry">Select country:</label>
+        <select name="selectCountry" id="selectCountry" class="marginArea">
+            <option value="ua">Ukraine</option>
+            <option value="pl">Poland</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="yourMessage">Your message:</label>
+        <br/>
+        <textarea name="yourMessage" id="yourMessage" cols="35" rows="5"></textarea>
+    </p>
+
+    <p>
+        <input type="checkbox" id="checkbox"/>
+        <label for="checkbox">I agree</label>
+    </p>
+
+    <p><input type="button" name="btnSubmit" value="btnSubmit"/></p>
+</form>
+
+<link href="css/style41.css" rel="stylesheet"/>
+</body>
+</html>
