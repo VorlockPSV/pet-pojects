@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>parsing JSON data</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="input-container">
+        <textarea name="jsonData" id="txtAreaDataJSON"
+                  placeholder="here must be your JSON data :)" class="txtAreaDataJSON">
+        </textarea>
+
+        <input type="button" name="btnBuildForm" value="Build form" class="btnSubmint" onclick="handleButtonClickBuildForm()"/>
+        <input type="button" name="btnClearForm" value="Restore form" class="btnRestore"
+               onclick="handleButtonClickRestoreForm()"/>
+    </div>
+
+    <div class="view-container" id="view-container"></div>
+</div>
+
+<script src="js/index.js"></script>
+<link rel="stylesheet" href="css/style.css"/>
+</body>
+</html>
